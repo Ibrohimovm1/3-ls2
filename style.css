@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul {
+    display: flex;
+    gap: 40px;
+    transition: 0.5s;
+}
+
+.nav__list {
+    display: flex;
+    color: black;
+    margin-top: 20px;
+}
+
+.nav__lt {
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 6px;
+    width: 100px;
+    height: 50px;
+    background-color: #FF7A50;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav ul a:hover {
+    color: orange;
+}
+
+.start{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-top: 152px;
+}
+
+
+
+h1 {
+    display: flex;
+    text-transform: capitalize;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 100%;
+}
+
+.span {
+    color: #FF7A50;
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 100%;
+    text-transform: capitalize;
+}
+
+.p1 {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.button1 {
+    display: flex;
+    width: 163px;
+    height: 50px;
+    margin-top: 40px;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: center;
+    color: white;
+    background-color: #FF7A50;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.start2 {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+h2 {
+
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+
+span {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: #FF7A50;
+}
+
+.p2 {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.button2 {
+    width: 176px;
+    height: 58px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 30px;
+    margin-top: 40px;
+    background-color: #FF7A50;
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: white;
+}
+
+.Pizzas {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    margin: 15px 0 5px;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+  }
+  
+  .time {
+    font-size: 0.9rem;
+    color: gray;
+  }
+  
+  .arrow-btn {
+    background: #ff7f50;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.2rem;
+    width: 35px;
+    height: 35px;;
+  }
+  
+.back__end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 162px;
+}
+
+.back {
+    width: 538px;
+    height: 174px;
+}
+
+.h2 {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+span {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: #FF7A50;
+}
+
+.p3 {
+    font-family: Rubik;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+.end__box {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.end__box {
+    width: 1170px;
+    height: 312px;
+    border-radius: 20px;
+    background-color: #FF7A50;
+    color: white;
+    margin-bottom: 200px;
+    margin-top: 162px;
+}
+
+.h21 {
+    font-family: Rubik;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    text-align: center;
+    display: flex;
+    margin: auto;
+}
+
+input {
+    width: 838.5px;
+    height: 78px;
+    border-radius: 50px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
